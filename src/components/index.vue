@@ -3,8 +3,8 @@
     <div class="row menu" id="menu">
       <div class="col" style="padding: 0px;">
         <ul class="menu_ponts">
-          <li  v-on:click="goto('#infoClinica')"><p>О КЛИНИКЕ</p></li>
-          <li><p>Персонал</p></li>
+          <li v-on:click="goto('#infoClinica')"><p>О КЛИНИКЕ</p></li>
+          <li v-on:click="goto('#personalList')"><p>Персонал</p></li>
           <li><p>Прайс</p>
             <ul>
               <li v-on:click="selectPrise = prise[0]"><p>Ортопедия</p></li>
@@ -134,7 +134,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <div class="container-fluid personalList">
+        <div class="container-fluid personalList" id="personalList">
           <div class="row">
             <div class="col">
               <h1>Персонал</h1>
