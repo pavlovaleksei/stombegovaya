@@ -20,13 +20,19 @@
     </div>
     <div class="row header" style="background-image: url('/static/background-header.jpg')">
       <div class="col"><h1>
-        <span>Стоматология<br>"На Беговой"</span>
+        <div class="title">
+          Стоматология "На Беговой"
+        </div>
       </h1>
-        <h2><span style="color: #1496ce">Большая садовая 82/90</span><br>
-            <span style="color: #1496ce">+7 (8452) 52-80-30</span>
+        <h2>
+          <span style="color: #1496ce">Большая Садовая, 82/90</span>
+          <br>
+          <span style="color: #1496ce">+7 (8452) 52-80-30</span>
         </h2>
-        <h2><span style="color: #1496ce">ПН-ПТ 9:00 - 20:00</span><br>
-          <span style="color: #1496ce">СБ, ВС 9:00 - 18:00 </span>
+        <h2>
+          <span style="color: #1496ce">ПН-ПТ 9:00 - 20:00</span>
+          <br>
+          <span style="color: #1496ce">СБ-ВС 9:00 - 18:00 </span>
         </h2>
         </div>
       <div class="col"></div>
@@ -340,13 +346,13 @@ export default {
       scrollPosition: null,
       gallerySelect: "",
       gallery:[
-        "20180202_181603.jpg",
+        // "20180202_181603.jpg",
         "20180202_181638.jpg",
         "20180202_181950.jpg",
-        "20180202_182048.jpg",
+        // "20180202_182048.jpg",
         "20180202_183837.jpg",
         "20180202_183904.jpg",
-        "20180202_185158.jpg"
+        // "20180202_185158.jpg"
       ],
       prise:[
         {
