@@ -21,7 +21,7 @@
     <div class="row header" style="background-image: url('/static/background-header.jpg')">
       <div class="col"><h1>
         <div class="title">
-          Стоматология "На Беговой"
+          <div style="color: white">Стоматология<br>"На Беговой"</div>
         </div>
       </h1>
         <h2>
